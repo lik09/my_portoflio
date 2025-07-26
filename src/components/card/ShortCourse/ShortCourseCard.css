@@ -1,0 +1,10 @@
+.caed-cert:hover{
+  border-color: #1890ff;
+  transform: translateY(-5px);
+  /* background-color: aquamarine !important; */
+}
+.caed-cert{
+  border: 2px solid transparent;
+  transition: transform 0.3s ease, background-color 0.3s ease ,border 0.3s ease;
+
+}

@@ -1,0 +1,22 @@
+
+.contact-card {
+  transition: all 0.3s ease;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  background: #fff;
+  border-left: 4px solid transparent;
+  margin: 20px 0px;
+}
+
+.contact-card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid red;
+  transform: translateX(5px);
+}
+.contact-icon{
+  width: 60px;
+  height: 60px;
+  background-color: #FFD8D8;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

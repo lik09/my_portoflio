@@ -1,0 +1,36 @@
+.project-card{
+  border: 2px solid transparent;
+  transition: transform 0.3s ease, background-color 0.3s ease ,border 0.3s ease;
+
+}
+.project-card:hover{
+  border-color: #1890ff;
+  transform: translateY(-5px);
+  /* background-color: aquamarine !important; */
+}
+.technologies {
+  padding: 2px 12px;
+  background: #f0f0f093;
+  border-radius: 50px;
+  cursor: default;
+  transition: width 0.3s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.technologies:hover {
+  width: auto;   /* or a specific width like 150px */
+  background: #d1eaff72;
+}
+
+.btn-live-deomo ,.btn-code{
+  width: 48%;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+}

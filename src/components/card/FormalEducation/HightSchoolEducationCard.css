@@ -1,0 +1,18 @@
+.card-formal-edu{
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 14px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  position: relative;
+  /* Set initial border to prevent layout shift */
+  border: 2px solid transparent;
+  transition: transform 0.3s ease, background-color 0.3s ease ,border 0.3s ease;
+}
+.card-formal-edu:hover{
+  border-color: #16C47F;
+  transform: translateY(-5px);
+  /* background-color: aquamarine !important; */
+}

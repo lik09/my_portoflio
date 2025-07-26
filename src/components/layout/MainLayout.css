@@ -1,0 +1,100 @@
+
+/* remove background-color */
+.custom-menu .ant-menu-item-selected {
+  background-color:transparent !important; 
+  color: black !important;
+}
+
+/* Optional: Change link text color inside selected menu item */
+
+.heaner-container{
+  background-color: white;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.20);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;      /* standard max width for content */
+  /* background-color: rgb(97, 61, 8); */
+  box-sizing: border-box; 
+  color: black !important;
+}
+
+
+.logo {
+  font-size: 24px;
+  color:  black;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.logo:hover{
+  color: #0065F8;
+  text-shadow: 0px 2px 6px rgba(0, 101, 248, 0.4);
+
+}
+.custom-menu {
+  background: transparent;
+  border-bottom: none;
+  width: 55%;
+ 
+}
+
+/* Base style for links */
+.menu-link {
+  padding: 10px 15px;
+  background-color: transparent;
+  color: black;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-link.active {
+  background-color: #0065F8 !important;
+  color: black !important;
+}
+
+.ant-menu-dark .ant-menu-item .menu-link:hover {
+  color: #40a9ff !important;
+}
+
+.ant-menu-dark .ant-menu-item .menu-link.active {
+  color: #fff !important;
+}
+
+
+/*  */
+.custom-menu .ant-menu-item a.menu-link {
+  color: black !important;
+}
+
+
+
+
+/*  */
+
+.hover-list li {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.hover-list li:hover {
+  color: #40a9ff;  /* Ant Design primary blue */
+  border-radius: 4px;
+  padding: 0px 5px; 
+  transform: translateX(4px);
+}
+
+@media (max-width: 767px) {
+  .custom-menu {
+    display: none;
+  }
+}

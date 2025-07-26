@@ -1,0 +1,11 @@
+.hight-input{
+  height: 40px;
+  font-size: 16px;
+}
+.ant-form-item-label > label {
+  font-size: 16px !important;
+}
+
+.ant-btn {
+  font-size: 16px !important;
+}

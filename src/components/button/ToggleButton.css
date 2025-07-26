@@ -1,0 +1,40 @@
+/* Container holding the two buttons */
+.btn-toggle-action {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 18px;
+  border: 1px solid #1890ff;
+}
+
+/* Shared button style */
+.btn-toggle {
+  color: #1890ff;
+  padding: 8px 16px;
+  border: none !important;
+  background-color: transparent;
+  font-weight: 500;
+  transition: background-color 0.5s ease, color 0.3s ease;
+}
+
+/* Active button styling */
+.btn-toggle.active {
+  background-color: #1890ff;
+  color: #fff;
+}
+
+/* Left-side button rounding */
+.btn-hight-sch {
+  border-radius: 18px 0 0 18px;
+}
+
+/* Right-side button rounding */
+.btn-short-course {
+  border-radius: 0 18px 18px 0;
+}
+.btn-univeristy{
+  border-radius:0px;
+}
+.btn-hight-sch:hover, .btn-univeristy:hover ,.btn-short-course:hover{
+  background-color: #1890ff;
+}

@@ -1,0 +1,27 @@
+
+.skill-container{
+   border: 2px solid transparent;
+   transition: transform 0.3s ease, background-color 0.3s ease ,border 0.3s ease;
+}
+.skill-container:hover{
+  border-color: hsl(178, 100%, 55%);
+  transform: translateY(-5px);
+
+}
+
+.icon-techno{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pct-status{
+    padding: 2px 16px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
